@@ -32,7 +32,7 @@ EXPOSE 22
 EXPOSE 80
 EXPOSE 443
 
-VOLUME ["/home/git/data"]
+VOLUME ["/home/git"]
 VOLUME ["/var/log/gitlab"]
 
 ENTRYPOINT ["/app/init"]
